@@ -36,6 +36,7 @@ class BookingController extends ChangeNotifier {
   bool get isSuccessfullUploaded => _successfullUploaded;
 
   void initBack() {
+    print('finally');
     _isUploading = false;
     _successfullUploaded = false;
   }
